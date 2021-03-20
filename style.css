@@ -1,0 +1,29 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button{
+    margin: 10px;
+    transition: box-shadow .3s;
+    padding: 15px;
+    background-color: transparent;
+    width:250px;
+    height: 90px;
+    font-size: 35px;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid black;
+}
+
+button:hover{
+  box-shadow: 0 15px 20px rgba(33,33,33,.2);
+  transform: translateY(-3px);
+  border: 2px solid black;
+  
+}
